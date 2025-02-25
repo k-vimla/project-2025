@@ -11,6 +11,7 @@ export default function LoginComponent(){
     return (
         <div>
             <h1>LoginComponent</h1>
+            <input className="common-input" placeholder="Enter your email"/>
             <button onClick={login} className="login-btn">
                 Log in to Linkedin</button>
         </div>

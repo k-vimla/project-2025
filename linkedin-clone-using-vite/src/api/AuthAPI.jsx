@@ -2,6 +2,6 @@ import {signInWithEmailAndPassword} from 'firebase/auth';
 
 let auth = getAuth()
 
-export const LoginAPI =() =>{
-    return "Hello from Login API";
+export const LoginAPI =(email, password) =>{
+    signInWithEmailAndPassword(auth, email,password);
 };
